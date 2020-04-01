@@ -1,0 +1,23 @@
+Penerimaan Naskah Masuk
+=======================
+
+Interface pada andieni terdiri dari beberapa bagian, berikut adalah penjelasan bagian tersebut.
+
+Halaman Naskah
+--------------
+Halaman naskah merupakan halaman default dari Andieni, pada bagian ini interaksi anda akan banyak tertuju dalam pemantauan
+naskah masuk maupun disposisi masuk.
+
+Naskah Internal
+^^^^^^^^^^^^^^^
+Naskah masuk internal merupakan kolom yang digunakan untuk interaksi naskah masuk dari internal UI. Baik diterima dalam bentuk digital maupun fisik
+
+Naskah Eksternal
+^^^^^^^^^^^^^^^^
+Bagian ini digunakan untuk mencatat naskah masuk dari eksternal universitas. Baik diterima dalam bentuk digital maupun fisik.
+
+.. image:: /_image/skenario_1a.png
+
+Disposisi
+^^^^^^^^^
+Pada bagian ini dapat dilihat disposisi masuk dari atasan atau rekan kerja. Begitu pula disposisi keluar yang ditujukan kepada staf anda.

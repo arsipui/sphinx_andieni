@@ -1,0 +1,50 @@
+Pendaftaran Pengguna Andieni
+============================
+
+Andieni diperuntukan bagi pelaksana, sekretaris, dan pimpinan unit kerja. Pada tahap ini pengguna Andieni dibatasi pada
+Tenaga Kependidikan dan Struktural di lingkungan UI.
+
+Role Pengguna
+-------------
+Pengguna Andieni dapat dikategorikan menjadi beberapa role sebagai berikut
+
++------------+--------------------------------------+---------------------------------------+
+| Role       | Jabatan                              | Kewenangan                            |
++============+======================================+=======================================+
+| Staf       | Tenaga Kependidikan di unit kerja    | * draft konsep                        |
+|            |                                      | * approver konsep                     |
+|            |                                      | * baca naskah masuk                   |
+|            |                                      | * baca disposisi                      |
++------------+--------------------------------------+---------------------------------------+
+| Sekretaris | Sekretariat di unit kerja            | * draft konsep                        |
+|            |                                      | * approver konsep                     |
+|            |                                      | * baca naskah masuk seluruh unit      |
++------------+--------------------------------------+---------------------------------------+
+| Mailroom   | Tata usaha atau sebutan lain         | * baca naskah masuk seluruh entitas   |
+|            |                                      | * entri naskah masuk                  |
++------------+--------------------------------------+---------------------------------------+
+| Pimpinan   | Pimpinan unit kerja                  | * draft konsep                        |
+|            |                                      | * approver konsep                     |
+|            |                                      | * baca naskah masuk                   |
+|            |                                      | * baca disposisi                      |
+|            |                                      | * tanda tangan digital (eSign)        |
++------------+--------------------------------------+---------------------------------------+
+
+Pendaftaran Pengguna
+--------------------
+Pendaftaran pengguna Andieni dapat dilakukan `DISINI <https://docs.google.com/forms/d/e/1FAIpQLSeJsqzppPpJYVllUe7LMwINVoqJxklAZ-JK_1HgQgw-odfw8Q/viewform>`_
+
+Beberapa data yang perlu diisi antara lain:
+* Nama Lengkap
+* NIP/ NUP
+* Nomor Telepon aktif
+* Akun SSO UI
+* Email aktif
+* Unit Kerja
+* Jabatan
+
+Aktivasi User Andieni
+---------------------
+TIm Helpdesk Andieni akan melakukan pendaftaran akun SSO anda agar dapat digunakan pada aplikasi Andieni dalam kurun
+waktu maksimal 2 x 24 jam.
+

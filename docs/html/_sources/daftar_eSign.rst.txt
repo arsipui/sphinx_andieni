@@ -1,0 +1,85 @@
+Registrasi eSign
+================
+
+.. note:: Menu pendaftaran hanya ditujukan untuk PIMPINAN
+
+Login
+-----
+Silahkan login ke andieni.ui.ac.id dengan akun SSO anda
+
+.. image:: /_image/login_andieni.png
+
+.. warning:: pastikan akun anda telah terdaftar pada Andieni, hubungi Helpdesk jika anda kesulitan untuk Login
+
+Menu Registrasi
+---------------
+Setelah login anda pilih menu pada sisi kanan atas dibawah nama profil anda.
+Kemudian klik **Registrasi BSRE**
+
+.. image:: /_image/regBSRE_menu.png
+
+Form Registrasi BSRE akan muncul pada layar anda. Isikan seluruh data tersebut sesuai dengan data diri anda.
+Penjelasan isian data sebagai berikut:
+
++-------------------+----------------------------------------------------------------------+
+| Data              |  Penjelasan                                                          |
++-------------------+----------------------------------------------------------------------+
+| NIK               |  Nomor Induk Kependudukan (sesuai KTP)                               |
++-------------------+----------------------------------------------------------------------+
+| Nama              |  Sesuai dengan KTP, tanpa gelar akademik atau keagamaan              |
++-------------------+----------------------------------------------------------------------+
+| Email             |  Gunakan email UI anda, dengan domain @ui.ac.id                      |
++-------------------+----------------------------------------------------------------------+
+| Telepon           |  Nomor telepon anda yang masih aktif                                 |
++-------------------+----------------------------------------------------------------------+
+| Kota              |  Kota lokasi bekerja                                                 |
++-------------------+----------------------------------------------------------------------+
+| Provinsi          | Provinsi lokasi bekerja                                              |
++-------------------+----------------------------------------------------------------------+
+| NIP               | Nomor Induk Pegawai                                                  |
++-------------------+----------------------------------------------------------------------+
+| Jabatan           | 50 karakter, tidak menggunakan koma (,) atau dash (-)                |
++-------------------+----------------------------------------------------------------------+
+| Unit Kerja        | 50 karakter, tidak menggunakan koma (,) atau dash (-)                |
++-------------------+----------------------------------------------------------------------+
+| Gambar TTD        | spesimen/ contoh tanda tangan anda, format .jpeg .jpg size: < 565 KB |
++-------------------+----------------------------------------------------------------------+
+| KTP               | hasil scan ktp anda, format .jpeg .jpg size: < 565 KB                |
++-------------------+----------------------------------------------------------------------+
+| Surat Rekomendasi | Surat yang diterbitkan oleh Rektor                                   |
++-------------------+----------------------------------------------------------------------+
+
+.. image:: /_image/data_eSign.png
+
+.. warning:: Email, apabila anda menggunakan email dengan domain selain UI seperti @gmail @yahoo maka pendaftaran anda akan ditolak oleh tim layanan BSRE
+
+.. note:: Surat Rekomendasi Rektor telah disediakan oleh Helpdesk Andieni (Kantor Arsip) format .pdf size: < 565 KB
+
+Anda perlu mengisi beberapa data berikut sebagai persyaratan penerbitan tanda tangan digital. Setelah anda berhasil
+melakukan registrasi (tidak ada error) ditandai dengan highlight berwarna hijau dibagian atas (data berhasil disimpan)
+maka data anda telah terkirim ke BSRE. Mohon untuk melakukan konfirmasi  kepada helpdesk Kantor Arsip untuk
+konfirmasi pendaftaran anda.
+
+Email OSD
+---------
+Anda akan menerima 3 email dari osd [otoritas sertifikat digital] :
+
+1. Email pertana - [BSrE] Login Information : berisi informasi akun anda untuk masuk ke portal bsre
+2. Email kedua - [eSign] Pendaftaran Sertifikat : berisi link untuk membuat passphrase
+3. Email ketiga - [BSrE] Certificate Issued : Email ini menandakan sertifikat anda telah terbit dan dapat digunakan pada Andieni
+
+.. image:: /_image/email_BSRE.png
+
+PASSPHRASE
+----------
+
+.. image:: /_image/passphrase.png
+
+Passphrase adalah semacam PIN yang **hanya boleh diketahui oleh pemilik** tanda tangan digital. Passphrase minimal
+terdiri dari 8 karakter. Disarankan berupa frase, hindari password umum seperti tanggal lahir, kota lahir
+
+.. warning:: lupa akan passphrase maka sertifikat digital harus di batalkan dan membuat penerbitan baru
+
+Durasi proses penerbitan tanda tangan digital menyesuaikan dengan jumlah penerbitan tanda tangan digital di bagian
+layanan dari BSrE. Apabila anda belum mendapatkan ketiga atau salah satu dari email tersebut silahkan kontak helpdesk
+Andieni.
