@@ -1,2 +1,237 @@
-Penciptaan Naskah Dinas Elektronik
-==================================
+Cipta Naskah Dinas Elektronik
+=============================
+
+Andieni, membantu anda dalam membuat naskah dinas sesuai dengan format Tata Naskah Dinas Universitas Indonesia. Silahkan
+login pada portal `Andieni <https://andieni.ui.ac.id>`_
+
+.. image:: /_image/login_andieni.png
+
+.. note:: Pastikan bahwa anda telah mendaftarkan akun SSO agar dapat menggunakan Andieni
+
+Pilih Menu **Cipta Naskah**
+
+.. image:: /_image/menu_kiri.png
+
+Pilih tombol **Tambah Naskah Dinas Baru**
+
+.. image:: /_image/tambah_ciptanaskah.png
+
+Saat ini tersedia 2(dua) *template* Naskah Dinas dari 19 Jenis Naskah Dinas di lingkungan UI, yaitu Nota Dinas dan Surat Dinas.
+Isikan seluruh data yang diperlukan untuk *generate* naskah dinas anda.
+
+.. image:: /_image/ciptanaskah.png
+
+Form diatas terdiri dari beberapa field dan tombol. Berikut deskripsi dari masing masing field tersebut.
+
++-----------------------------------+-----------------------------------+
+| Surat Dinas / Nota Dinas          | Keterangan                        |
++===================================+===================================+
+| Nomor Naskah                      | otomatis ter-generate oleh Andieni|
++-----------------------------------+-----------------------------------+
+| Jenis Naskah                      | Pilih template Surat Dinas atau   |
+|                                   | Nota Dinas)                       |
++-----------------------------------+-----------------------------------+
+| Perihal                           | Text field yang dapat anda ketik  |
++-----------------------------------+-----------------------------------+
+| Tujuan                            | pastikan tujuan anda telah        |
+|                                   | menggunakan Andieni               |
++-----------------------------------+-----------------------------------+
+| Sifat                             | Rahasia, Sangat Rahasia, Biasa    |
++-----------------------------------+-----------------------------------+
+| Derajat                           | Segera, Sangat Segera, Biasa      |
++-----------------------------------+-----------------------------------+
+| Tembusan                          | pastikan tujuan anda telah        |
+|                                   | menggunakan Andieni               |
++-----------------------------------+-----------------------------------+
+| Kode Klasifikasi                  | Cukup pilih indeks kegiatan       |
+|                                   | kode dibuat oleh Andieni          |
++-----------------------------------+-----------------------------------+
+| Approver                          | Pemberi paraf                     |
++-----------------------------------+-----------------------------------+
+| Pejabat Penandatangan             | Pejabat penandatangan dengan eSign|
++-----------------------------------+-----------------------------------+
+| Upload Lampiran                   | format .pdf maks. 5MB             |
++-----------------------------------+-----------------------------------+
+| Isi Naskah                        | konten dari naskah dinas anda     |
++-----------------------------------+-----------------------------------+
+
+**Nomor Naskah** | Nomor naskah otomatis ter-generate oleh sistem Andieni dengan notasi khusus.
+
+.. image:: /_image/ciptanaskah_nomornaskah.png
+
+**Jenis Naskah** | Dropdown saat ini terdiri dari Surat Dinas dan Nota Dinas.
+
+.. image:: /_image/ciptanaskah_jenisnaskah.png
+
+**Perihal** | Textfield yang dapat anda ketikkan perihal dari naskah.
+
+.. image:: /_image/ciptanaskah_perihal.png
+
+**Approver** | Dropdown yang dapat anda ketikkan jabatan atau nama approver untuk
+
+.. image:: /_image/ciptanaskah_approver_0.png
+
+**Sifat**   | Dropdown yang muncul dan wajib diisi apabila jenis naskah Surat Dinas.
+
+.. image:: /_image/ciptanaskah_sifat.png
+
+**Tanggal** | Otomatis ter generate pada hari naskah dibuat.
+
+**Upload Lampiran** | Field untuk menyisipkan lampiran (jika ada)
+
+.. image:: /_image/ciptanaskah_lampiran.png
+
+**Tujuan Naskah**   | Apabila jenis naskah Surat Dinas, field akan berupa textfield yang dapat anda ketikkan secara langsung.
+
+.. image:: /_image/ciptanaskah_tujuan_S.png
+
+Apabila jenis naskah Naskah Dinas, field akan berupa Dropdown yang dapat anda ketikkan
+jabatan atau nama tujuan untuk memberikan sugesti pilihan. Tujuan nas kah dapat dipilih
+lebih dari satu.
+
+.. image:: /_image/ciptanaskah_tujuan_ND.png
+
+**Tembusan**    | Dropdown yang dapat anda ketikkan jabatan atau nama tembusan untuk memberikan sugesti pilihan.
+Tembusan dapat dipilih lebih dari satu.
+
+.. image:: /_image/ciptanaskah_tembusan.png
+
+**Kode Klasifikasi**    | Dropdown yang dapat anda ketikkan kode klasifikasi u ntuk memberikan sugesti pilihan.
+
+.. image:: /_image/ciptanaskah_klasifikasi.png
+
+.. warning:: kode klasifikasi mengikuti kegiatan atau proses bisnis yang anda lakukan. Jika menulis klasifikasi dengan kata **"undangan"** maka tidak akan ditemukan di kode klasifikasi.
+
+.. image:: /_image/ciptanaskah_klasifikasi_2.png
+
+**Pejabat penandatangan**  | Dropdown yang dapat anda ketikkan jabatan atau nama pejabat untuk memberikan sugesti pilihan. Penandatangan hanya dapat dipilih satu.
+
+.. image:: /_image/ciptanaskah_signer.png
+
+**Derajat** | Dropdown yang menentukan berapa lama naskah harus ditandatangani.
+
+.. image:: /_image/ciptanaskah_derajat.png
+
+**Isi Naskah**  | Field berupa text editor untuk melakukan formatting isi naskah.
+
+.. image:: /_image/ciptanaskah_isinaskah.png
+
+.. warning:: hindari penulisan perihal dengan judul umum seperti undangan, rapat, karena ini tidak menggambarkan konten naskah.
+.. note:: Contoh yang benar penulisan perihal antara lain Rapat RKA Tahun 2020 ; Nara Sumber Seminar Nasional Kewirausahaan ; Sosialisasi Naskah Dinas Elektronik.
+
+Approver - Paraf
+================
+Pembubuhan paraf pada sebuah naskah dinas bersifat opsional yang berarti tidak semua naskah dinas membutuhkan paraf
+dan wajib dibubuhan paraf sebelum ditandatangani.
+
+1. Tambahkan Approver
+---------------------
+
+Andieni memiliki fitur agar naskah dinas yang membutuhkan persetujuan *(approver)* disediakan mekanisme secara sistem
+melalui field **Approve Naskah**. Apabila saat membuat naskah, diisikan nama Pejabat pembubuh paraf maka secara sistem Pejabat
+tersebut dapat melihat naskah apa yang perlu di paraf melalui menu **Approve Naskah**
+
+.. image:: /_image/ciptanaskah_approver_10.png
+
+Approver dapat diisi lebih dari 1 pengguna secara paralel
+
+.. image:: /_image/ciptanaskah_approver_2.png
+
+Pada menu Approve Naskah, terdapat dua (2) tab, yaitu Menunggu Persetujuan dan Riwayat Persetujuan. Pada tab Menunggu
+Persetujuan muncul list naskah yang akan disetujui oleh user.
+
+.. image:: /_image/ciptanaskah_approver_13.png
+
+.. warning:: Baris naskah akan berlatar belakang warna merah jika naskah surat belum disetujui namun telah melewati batas waktu persetujuan naskah. Batas waktu persetujuan naskah menyesuaikan dari **derajat**.
+
+.. image:: /_image/ciptanaskah_derajat.png
+
+Pada tab Riwayat Persetujuan muncul list naskah yang sudah pernah disetujui oleh user.
+
+.. image:: /_image/ciptanaskah_approver_4.png
+
+2. Detail Naskah
+----------------
+Halaman Detail Naskah dapat dibuka melalui link Detail pada kolom Aksi. Halaman detail berisi detail naskah dan
+daftar naskah yang belum disetujui.
+
+.. image:: /_image/ciptanaskah_approver_5.png
+
+Pada form persetujuan terdapat 3 tombol yaitu tombol Setuju, Tidak Setuju, dan Koreksi.
+
+| **a.** Tombol Setuju digunakan untuk menyetujui naskah. Ketika user menekan tombol Setuju maka halaman detail akan menampilkan keterangan : **“Anda telah menyetujui surat ini.”**
+| **b.** Tombol Tidak Setuju untuk tidak menyetujui naskah. Pada saat menekan tombol Tidak Setuju, kolom Keterangan harus diisi. Sistem akan menampilkan pesan agar user menuliskan alasan tidak setuju seperti dibawah ini.
+
+.. image:: /_image/ciptanaskah_approver_6.png
+
+Ketika user menekan tombol Tidak Setuju maka halaman detail ak an menampilkan keterangan :
+**“Anda telah tidak menyetujui surat ini.”**
+
+.. image:: /_image/ciptanaskah_approver_7.png
+
+.. note:: Naskah yang tidak disetujui akan kembali kepada konseptor naskah.
+
+| **c.** Tombol Koreksi digunakan oleh user untuk melakukan koreksi pada naskah. Perbaikan data dapat dilakukan pada semua role pengguna.
+
+3. Tombol Cipta Naskah
+----------------------
+| **a.** Tombol Cek Naskah/Format digunakan untuk menampilkan isi naskah dalam bentuk surat yang lengkap *(preview)*
+| **b.** Simpan draft akan menyimpan konsep surat anda
+| **c.** Tombol Selesai digunakan untuk mengakhiri proses koreksi dan menyimpan seluruh perubahan yang dilakukan.
+| **d.** Tombol Batal digunakan untuk mengakhiri proses koreksi dan tidak menyimpan perubahan yang dilakukan.
+
+.. image:: /_image/ciptanaskah_approver_8.png
+
+Tanda Tangan eSign
+==================
+.. image:: /_image/ciptanaskah_approver_9.png
+
+Ketika naskah disetujui oleh semua Approver, status naskah akan berubah menjadi: **“Menunggu Tanda Tangan”.**
+Naskah akan muncul pada menu Tanda Tangan Naskah pada tab Menunggu Tanda Tangan pada akun user
+Pejabat Penandatangan terkait.
+
+.. image:: /_image/ciptanaskah_approver_11.png
+
+.. warning:: Ketika salah satu dari Approver tidak menyetujui naskah.status naskah akan berubah menjadi : **Tidak disetujui**.
+
+.. image:: /_image/ciptanaskah_approver_12.png
+
+Pada tab Riwayat Tanda Tangan muncul list naskah yang sudah pernah ditandatangani oleh user.
+
+.. image:: /_image/ciptanaskah_approver_14.png
+
+Pada form penandatanganan terdapat 3 tombol yaitu tombol Tanda Tangan, Tidak Tanda Tangan, dan Koreks Koreksi.
+
+| **a.** Tombol Tanda Tangan digunakan untuk menandatangani naskah. Sebelum menekan tombol Tanda Tangan user harus memasukkan passphare yang digunakan untuk koneksi ke BSRE. Ketika passphrase yang dimasukkan salah, sistem akan menampilkan pesan : **“Kombinasi NIK dan Passphrase Anda Salah.”**
+
+.. image:: /_image/ciptanaskah_approver_15.png
+
+| **b.** Ketika user menekan tombol Tanda Tangan dan passphrase yang dimasukkan sudah sesuai, maka halaman detail akan menampilkan keterangan : **“Anda telah menandatangani surat ini.”**
+
+.. image:: /_image/ciptanaskah_approver_16.png
+
+.. note:: Setelah pimpinan menandatangani Nota Dinas Elektroni, maka surat akan langsung terdistribusi ke tujuan naskah. Penerima naskah dapat melihatnya pada kolom Menu **Halaman Naskah** -> **Naskah Masuk Internal**
+
+| **c.** Tombol Tidak Tanda Tangan untuk tidak menan datangani naskah. Pada saat menekan tombol Tidak Tangan, kolom Keterangan harus diisi. Sistem akan menampilkan pesan agar user menuliskan alasan tidak ditandatangani seperti dibawah ini.
+
+.. image:: /_image/ciptanaskah_approver_17.png
+
+Ketika user menekan tombol Tidak Tanda Tangan maka halaman detail akan menampilkan keterangan :
+**“Anda telah tidak menandatangani surat ini.”**
+
+.. image:: /_image/ciptanaskah_approver_18.png
+
+
+Notasi & Nomor Naskah Dinas
+---------------------------
+Naskah dinas yang diciptakan melalui modul cipta naskah akan ter-generate secara automatis menjadi bentuk file digital
+dalam format .pdf .
+
+| Nota Dinas Elektronik         : ND.e
+| **ND.e-[nomor urut]/UN2.[kode jabatan]/[kode klasifikasi]/[tahun]**
+
+| Surat Dinas Elektronik        : S.e
+| **S.e-[nomor urut]/UN2.[kode jabatan]/[kode klasifikasi]/[tahun]**
+
+.. note:: Nomor pada konsep atau draft naskah dinas masih berupa *XX* hingga ditandatangani oleh pimpinan penandatangan.
+.. warning:: Tanggal pada surat akan berubah menyesuaikan dengan kapan dokumen tersebut ditandatangani secara elektronik. Bukan pada saat surat tersebut dikonsep.

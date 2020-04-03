@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Penciptaan Naskah Dinas Elektronik &mdash; Dokumentasi Andieni 1</title>
+  <title>Cipta Naskah Dinas Elektronik &mdash; Dokumentasi Andieni 1</title>
   
 
   
@@ -37,7 +37,7 @@
     <link rel="index" title="Indeks" href="genindex.html" />
     <link rel="search" title="Pencarian" href="search.html" />
     <link rel="next" title="Penerimaan Naskah Masuk" href="agendaSurat.html" />
-    <link rel="prev" title="Skenario Penggunaan Andieni" href="interface.html" /> 
+    <link rel="prev" title="Transisi Penggunaan Andieni" href="interface.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -51,9 +51,12 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> Andieni
+            <a href="index.html">
           
 
+          
+            
+            <img src="_static/logo_hitam.png" class="logo" alt="Logo"/>
           
           </a>
 
@@ -81,12 +84,23 @@
               
             
             
-              <p class="caption"><span class="caption-text">Contents:</span></p>
+              <p class="caption"><span class="caption-text">Daftar Panduan:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="daftarPengguna.html">Pendaftaran Pengguna Andieni</a></li>
 <li class="toctree-l1"><a class="reference internal" href="daftar_eSign.html">Registrasi eSign</a></li>
-<li class="toctree-l1"><a class="reference internal" href="interface.html">Skenario Penggunaan Andieni</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Penciptaan Naskah Dinas Elektronik</a></li>
+<li class="toctree-l1"><a class="reference internal" href="interface.html">Transisi Penggunaan Andieni</a></li>
+<li class="toctree-l1"><a class="reference internal" href="interface.html#timeframe-implementasi">Timeframe Implementasi</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Cipta Naskah Dinas Elektronik</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#approver-paraf">Approver - Paraf</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#tambahkan-approver">1. Tambahkan Approver</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#detail-naskah">2. Detail Naskah</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tombol-cipta-naskah">3. Tombol Cipta Naskah</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#tanda-tangan-esign">Tanda Tangan eSign</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#notasi-nomor-naskah-dinas">Notasi &amp; Nomor Naskah Dinas</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="agendaSurat.html">Penerimaan Naskah Masuk</a></li>
 <li class="toctree-l1"><a class="reference internal" href="disposisi.html">Disposisi Naskah</a></li>
 <li class="toctree-l1"><a class="reference internal" href="upload_eSign.html">Upload eSign</a></li>
@@ -138,7 +152,7 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Penciptaan Naskah Dinas Elektronik</li>
+      <li>Cipta Naskah Dinas Elektronik</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -157,8 +171,231 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="penciptaan-naskah-dinas-elektronik">
-<h1>Penciptaan Naskah Dinas Elektronik<a class="headerlink" href="#penciptaan-naskah-dinas-elektronik" title="Link permanen untuk headline ini">¶</a></h1>
+  <div class="section" id="cipta-naskah-dinas-elektronik">
+<h1>Cipta Naskah Dinas Elektronik<a class="headerlink" href="#cipta-naskah-dinas-elektronik" title="Link permanen untuk headline ini">¶</a></h1>
+<p>Andieni, membantu anda dalam membuat naskah dinas sesuai dengan format Tata Naskah Dinas Universitas Indonesia. Silahkan
+login pada portal <a class="reference external" href="https://andieni.ui.ac.id">Andieni</a></p>
+<img alt="_images/login_andieni.png" src="_images/login_andieni.png" />
+<div class="admonition note">
+<p class="admonition-title">Catatan</p>
+<p>Pastikan bahwa anda telah mendaftarkan akun SSO agar dapat menggunakan Andieni</p>
+</div>
+<p>Pilih Menu <strong>Cipta Naskah</strong></p>
+<img alt="_images/menu_kiri.png" src="_images/menu_kiri.png" />
+<p>Pilih tombol <strong>Tambah Naskah Dinas Baru</strong></p>
+<img alt="_images/tambah_ciptanaskah.png" src="_images/tambah_ciptanaskah.png" />
+<p>Saat ini tersedia 2(dua) <em>template</em> Naskah Dinas dari 19 Jenis Naskah Dinas di lingkungan UI, yaitu Nota Dinas dan Surat Dinas.
+Isikan seluruh data yang diperlukan untuk <em>generate</em> naskah dinas anda.</p>
+<img alt="_images/ciptanaskah.png" src="_images/ciptanaskah.png" />
+<p>Form diatas terdiri dari beberapa field dan tombol. Berikut deskripsi dari masing masing field tersebut.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Surat Dinas / Nota Dinas</p></th>
+<th class="head"><p>Keterangan</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Nomor Naskah</p></td>
+<td><p>otomatis ter-generate oleh Andieni</p></td>
+</tr>
+<tr class="row-odd"><td><p>Jenis Naskah</p></td>
+<td><p>Pilih template Surat Dinas atau
+Nota Dinas)</p></td>
+</tr>
+<tr class="row-even"><td><p>Perihal</p></td>
+<td><p>Text field yang dapat anda ketik</p></td>
+</tr>
+<tr class="row-odd"><td><p>Tujuan</p></td>
+<td><p>pastikan tujuan anda telah
+menggunakan Andieni</p></td>
+</tr>
+<tr class="row-even"><td><p>Sifat</p></td>
+<td><p>Rahasia, Sangat Rahasia, Biasa</p></td>
+</tr>
+<tr class="row-odd"><td><p>Derajat</p></td>
+<td><p>Segera, Sangat Segera, Biasa</p></td>
+</tr>
+<tr class="row-even"><td><p>Tembusan</p></td>
+<td><p>pastikan tujuan anda telah
+menggunakan Andieni</p></td>
+</tr>
+<tr class="row-odd"><td><p>Kode Klasifikasi</p></td>
+<td><p>Cukup pilih indeks kegiatan
+kode dibuat oleh Andieni</p></td>
+</tr>
+<tr class="row-even"><td><p>Approver</p></td>
+<td><p>Pemberi paraf</p></td>
+</tr>
+<tr class="row-odd"><td><p>Pejabat Penandatangan</p></td>
+<td><p>Pejabat penandatangan dengan eSign</p></td>
+</tr>
+<tr class="row-even"><td><p>Upload Lampiran</p></td>
+<td><p>format .pdf maks. 5MB</p></td>
+</tr>
+<tr class="row-odd"><td><p>Isi Naskah</p></td>
+<td><p>konten dari naskah dinas anda</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Nomor Naskah</strong> | Nomor naskah otomatis ter-generate oleh sistem Andieni dengan notasi khusus.</p>
+<img alt="_images/ciptanaskah_nomornaskah.png" src="_images/ciptanaskah_nomornaskah.png" />
+<p><strong>Jenis Naskah</strong> | Dropdown saat ini terdiri dari Surat Dinas dan Nota Dinas.</p>
+<img alt="_images/ciptanaskah_jenisnaskah.png" src="_images/ciptanaskah_jenisnaskah.png" />
+<p><strong>Perihal</strong> | Textfield yang dapat anda ketikkan perihal dari naskah.</p>
+<img alt="_images/ciptanaskah_perihal.png" src="_images/ciptanaskah_perihal.png" />
+<p><strong>Approver</strong> | Dropdown yang dapat anda ketikkan jabatan atau nama approver untuk</p>
+<img alt="_images/ciptanaskah_approver_0.png" src="_images/ciptanaskah_approver_0.png" />
+<p><strong>Sifat</strong>   | Dropdown yang muncul dan wajib diisi apabila jenis naskah Surat Dinas.</p>
+<img alt="_images/ciptanaskah_sifat.png" src="_images/ciptanaskah_sifat.png" />
+<p><strong>Tanggal</strong> | Otomatis ter generate pada hari naskah dibuat.</p>
+<p><strong>Upload Lampiran</strong> | Field untuk menyisipkan lampiran (jika ada)</p>
+<img alt="_images/ciptanaskah_lampiran.png" src="_images/ciptanaskah_lampiran.png" />
+<p><strong>Tujuan Naskah</strong>   | Apabila jenis naskah Surat Dinas, field akan berupa textfield yang dapat anda ketikkan secara langsung.</p>
+<img alt="_images/ciptanaskah_tujuan_S.png" src="_images/ciptanaskah_tujuan_S.png" />
+<p>Apabila jenis naskah Naskah Dinas, field akan berupa Dropdown yang dapat anda ketikkan
+jabatan atau nama tujuan untuk memberikan sugesti pilihan. Tujuan nas kah dapat dipilih
+lebih dari satu.</p>
+<img alt="_images/ciptanaskah_tujuan_ND.png" src="_images/ciptanaskah_tujuan_ND.png" />
+<p><strong>Tembusan</strong>    | Dropdown yang dapat anda ketikkan jabatan atau nama tembusan untuk memberikan sugesti pilihan.
+Tembusan dapat dipilih lebih dari satu.</p>
+<img alt="_images/ciptanaskah_tembusan.png" src="_images/ciptanaskah_tembusan.png" />
+<p><strong>Kode Klasifikasi</strong>    | Dropdown yang dapat anda ketikkan kode klasifikasi u ntuk memberikan sugesti pilihan.</p>
+<img alt="_images/ciptanaskah_klasifikasi.png" src="_images/ciptanaskah_klasifikasi.png" />
+<div class="admonition warning">
+<p class="admonition-title">Peringatan</p>
+<p>kode klasifikasi mengikuti kegiatan atau proses bisnis yang anda lakukan. Jika menulis klasifikasi dengan kata <strong>&quot;undangan&quot;</strong> maka tidak akan ditemukan di kode klasifikasi.</p>
+</div>
+<img alt="_images/ciptanaskah_klasifikasi_2.png" src="_images/ciptanaskah_klasifikasi_2.png" />
+<p><strong>Pejabat penandatangan</strong>  | Dropdown yang dapat anda ketikkan jabatan atau nama pejabat untuk memberikan sugesti pilihan. Penandatangan hanya dapat dipilih satu.</p>
+<img alt="_images/ciptanaskah_signer.png" src="_images/ciptanaskah_signer.png" />
+<p><strong>Derajat</strong> | Dropdown yang menentukan berapa lama naskah harus ditandatangani.</p>
+<img alt="_images/ciptanaskah_derajat.png" src="_images/ciptanaskah_derajat.png" />
+<p><strong>Isi Naskah</strong>  | Field berupa text editor untuk melakukan formatting isi naskah.</p>
+<img alt="_images/ciptanaskah_isinaskah.png" src="_images/ciptanaskah_isinaskah.png" />
+<div class="admonition warning">
+<p class="admonition-title">Peringatan</p>
+<p>hindari penulisan perihal dengan judul umum seperti undangan, rapat, karena ini tidak menggambarkan konten naskah.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Catatan</p>
+<p>Contoh yang benar penulisan perihal antara lain Rapat RKA Tahun 2020 ; Nara Sumber Seminar Nasional Kewirausahaan ; Sosialisasi Naskah Dinas Elektronik.</p>
+</div>
+</div>
+<div class="section" id="approver-paraf">
+<h1>Approver - Paraf<a class="headerlink" href="#approver-paraf" title="Link permanen untuk headline ini">¶</a></h1>
+<p>Pembubuhan paraf pada sebuah naskah dinas bersifat opsional yang berarti tidak semua naskah dinas membutuhkan paraf
+dan wajib dibubuhan paraf sebelum ditandatangani.</p>
+<div class="section" id="tambahkan-approver">
+<h2>1. Tambahkan Approver<a class="headerlink" href="#tambahkan-approver" title="Link permanen untuk headline ini">¶</a></h2>
+<p>Andieni memiliki fitur agar naskah dinas yang membutuhkan persetujuan <em>(approver)</em> disediakan mekanisme secara sistem
+melalui field <strong>Approve Naskah</strong>. Apabila saat membuat naskah, diisikan nama Pejabat pembubuh paraf maka secara sistem Pejabat
+tersebut dapat melihat naskah apa yang perlu di paraf melalui menu <strong>Approve Naskah</strong></p>
+<img alt="_images/ciptanaskah_approver_10.png" src="_images/ciptanaskah_approver_10.png" />
+<p>Approver dapat diisi lebih dari 1 pengguna secara paralel</p>
+<img alt="_images/ciptanaskah_approver_2.png" src="_images/ciptanaskah_approver_2.png" />
+<p>Pada menu Approve Naskah, terdapat dua (2) tab, yaitu Menunggu Persetujuan dan Riwayat Persetujuan. Pada tab Menunggu
+Persetujuan muncul list naskah yang akan disetujui oleh user.</p>
+<img alt="_images/ciptanaskah_approver_13.png" src="_images/ciptanaskah_approver_13.png" />
+<div class="admonition warning">
+<p class="admonition-title">Peringatan</p>
+<p>Baris naskah akan berlatar belakang warna merah jika naskah surat belum disetujui namun telah melewati batas waktu persetujuan naskah. Batas waktu persetujuan naskah menyesuaikan dari <strong>derajat</strong>.</p>
+</div>
+<img alt="_images/ciptanaskah_derajat.png" src="_images/ciptanaskah_derajat.png" />
+<p>Pada tab Riwayat Persetujuan muncul list naskah yang sudah pernah disetujui oleh user.</p>
+<img alt="_images/ciptanaskah_approver_4.png" src="_images/ciptanaskah_approver_4.png" />
+</div>
+<div class="section" id="detail-naskah">
+<h2>2. Detail Naskah<a class="headerlink" href="#detail-naskah" title="Link permanen untuk headline ini">¶</a></h2>
+<p>Halaman Detail Naskah dapat dibuka melalui link Detail pada kolom Aksi. Halaman detail berisi detail naskah dan
+daftar naskah yang belum disetujui.</p>
+<img alt="_images/ciptanaskah_approver_5.png" src="_images/ciptanaskah_approver_5.png" />
+<p>Pada form persetujuan terdapat 3 tombol yaitu tombol Setuju, Tidak Setuju, dan Koreksi.</p>
+<div class="line-block">
+<div class="line"><strong>a.</strong> Tombol Setuju digunakan untuk menyetujui naskah. Ketika user menekan tombol Setuju maka halaman detail akan menampilkan keterangan : <strong>“Anda telah menyetujui surat ini.”</strong></div>
+<div class="line"><strong>b.</strong> Tombol Tidak Setuju untuk tidak menyetujui naskah. Pada saat menekan tombol Tidak Setuju, kolom Keterangan harus diisi. Sistem akan menampilkan pesan agar user menuliskan alasan tidak setuju seperti dibawah ini.</div>
+</div>
+<img alt="_images/ciptanaskah_approver_6.png" src="_images/ciptanaskah_approver_6.png" />
+<p>Ketika user menekan tombol Tidak Setuju maka halaman detail ak an menampilkan keterangan :
+<strong>“Anda telah tidak menyetujui surat ini.”</strong></p>
+<img alt="_images/ciptanaskah_approver_7.png" src="_images/ciptanaskah_approver_7.png" />
+<div class="admonition note">
+<p class="admonition-title">Catatan</p>
+<p>Naskah yang tidak disetujui akan kembali kepada konseptor naskah.</p>
+</div>
+<div class="line-block">
+<div class="line"><strong>c.</strong> Tombol Koreksi digunakan oleh user untuk melakukan koreksi pada naskah. Perbaikan data dapat dilakukan pada semua role pengguna.</div>
+</div>
+</div>
+<div class="section" id="tombol-cipta-naskah">
+<h2>3. Tombol Cipta Naskah<a class="headerlink" href="#tombol-cipta-naskah" title="Link permanen untuk headline ini">¶</a></h2>
+<div class="line-block">
+<div class="line"><strong>a.</strong> Tombol Cek Naskah/Format digunakan untuk menampilkan isi naskah dalam bentuk surat yang lengkap <em>(preview)</em></div>
+<div class="line"><strong>b.</strong> Simpan draft akan menyimpan konsep surat anda</div>
+<div class="line"><strong>c.</strong> Tombol Selesai digunakan untuk mengakhiri proses koreksi dan menyimpan seluruh perubahan yang dilakukan.</div>
+<div class="line"><strong>d.</strong> Tombol Batal digunakan untuk mengakhiri proses koreksi dan tidak menyimpan perubahan yang dilakukan.</div>
+</div>
+<img alt="_images/ciptanaskah_approver_8.png" src="_images/ciptanaskah_approver_8.png" />
+</div>
+</div>
+<div class="section" id="tanda-tangan-esign">
+<h1>Tanda Tangan eSign<a class="headerlink" href="#tanda-tangan-esign" title="Link permanen untuk headline ini">¶</a></h1>
+<img alt="_images/ciptanaskah_approver_9.png" src="_images/ciptanaskah_approver_9.png" />
+<p>Ketika naskah disetujui oleh semua Approver, status naskah akan berubah menjadi: <strong>“Menunggu Tanda Tangan”.</strong>
+Naskah akan muncul pada menu Tanda Tangan Naskah pada tab Menunggu Tanda Tangan pada akun user
+Pejabat Penandatangan terkait.</p>
+<img alt="_images/ciptanaskah_approver_11.png" src="_images/ciptanaskah_approver_11.png" />
+<div class="admonition warning">
+<p class="admonition-title">Peringatan</p>
+<p>Ketika salah satu dari Approver tidak menyetujui naskah.status naskah akan berubah menjadi : <strong>Tidak disetujui</strong>.</p>
+</div>
+<img alt="_images/ciptanaskah_approver_12.png" src="_images/ciptanaskah_approver_12.png" />
+<p>Pada tab Riwayat Tanda Tangan muncul list naskah yang sudah pernah ditandatangani oleh user.</p>
+<img alt="_images/ciptanaskah_approver_14.png" src="_images/ciptanaskah_approver_14.png" />
+<p>Pada form penandatanganan terdapat 3 tombol yaitu tombol Tanda Tangan, Tidak Tanda Tangan, dan Koreks Koreksi.</p>
+<div class="line-block">
+<div class="line"><strong>a.</strong> Tombol Tanda Tangan digunakan untuk menandatangani naskah. Sebelum menekan tombol Tanda Tangan user harus memasukkan passphare yang digunakan untuk koneksi ke BSRE. Ketika passphrase yang dimasukkan salah, sistem akan menampilkan pesan : <strong>“Kombinasi NIK dan Passphrase Anda Salah.”</strong></div>
+</div>
+<img alt="_images/ciptanaskah_approver_15.png" src="_images/ciptanaskah_approver_15.png" />
+<div class="line-block">
+<div class="line"><strong>b.</strong> Ketika user menekan tombol Tanda Tangan dan passphrase yang dimasukkan sudah sesuai, maka halaman detail akan menampilkan keterangan : <strong>“Anda telah menandatangani surat ini.”</strong></div>
+</div>
+<img alt="_images/ciptanaskah_approver_16.png" src="_images/ciptanaskah_approver_16.png" />
+<div class="admonition note">
+<p class="admonition-title">Catatan</p>
+<p>Setelah pimpinan menandatangani Nota Dinas Elektroni, maka surat akan langsung terdistribusi ke tujuan naskah. Penerima naskah dapat melihatnya pada kolom Menu <strong>Halaman Naskah</strong> -&gt; <strong>Naskah Masuk Internal</strong></p>
+</div>
+<div class="line-block">
+<div class="line"><strong>c.</strong> Tombol Tidak Tanda Tangan untuk tidak menan datangani naskah. Pada saat menekan tombol Tidak Tangan, kolom Keterangan harus diisi. Sistem akan menampilkan pesan agar user menuliskan alasan tidak ditandatangani seperti dibawah ini.</div>
+</div>
+<img alt="_images/ciptanaskah_approver_17.png" src="_images/ciptanaskah_approver_17.png" />
+<p>Ketika user menekan tombol Tidak Tanda Tangan maka halaman detail akan menampilkan keterangan :
+<strong>“Anda telah tidak menandatangani surat ini.”</strong></p>
+<img alt="_images/ciptanaskah_approver_18.png" src="_images/ciptanaskah_approver_18.png" />
+<div class="section" id="notasi-nomor-naskah-dinas">
+<h2>Notasi &amp; Nomor Naskah Dinas<a class="headerlink" href="#notasi-nomor-naskah-dinas" title="Link permanen untuk headline ini">¶</a></h2>
+<p>Naskah dinas yang diciptakan melalui modul cipta naskah akan ter-generate secara automatis menjadi bentuk file digital
+dalam format .pdf .</p>
+<div class="line-block">
+<div class="line">Nota Dinas Elektronik         : ND.e</div>
+<div class="line"><strong>ND.e-[nomor urut]/UN2.[kode jabatan]/[kode klasifikasi]/[tahun]</strong></div>
+</div>
+<div class="line-block">
+<div class="line">Surat Dinas Elektronik        : S.e</div>
+<div class="line"><strong>S.e-[nomor urut]/UN2.[kode jabatan]/[kode klasifikasi]/[tahun]</strong></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Catatan</p>
+<p>Nomor pada konsep atau draft naskah dinas masih berupa <em>XX</em> hingga ditandatangani oleh pimpinan penandatangan.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Peringatan</p>
+<p>Tanggal pada surat akan berubah menyesuaikan dengan kapan dokumen tersebut ditandatangani secara elektronik. Bukan pada saat surat tersebut dikonsep.</p>
+</div>
+</div>
 </div>
 
 
@@ -172,7 +409,7 @@
         <a href="agendaSurat.html" class="btn btn-neutral float-right" title="Penerimaan Naskah Masuk" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="interface.html" class="btn btn-neutral float-left" title="Skenario Penggunaan Andieni" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="interface.html" class="btn btn-neutral float-left" title="Transisi Penggunaan Andieni" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

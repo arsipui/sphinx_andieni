@@ -1,7 +1,7 @@
-Skenario Penggunaan Andieni
+Transisi Penggunaan Andieni
 ===========================
 
-Andieni dapat digunakan pada beberapa skenario berikut
+Andieni dapat digunakan pada beberapa skenario transisi berikut :
 
 1. Agenda surat di unit kerja
 2. Distribusi nota dinas di lingkungan UI
@@ -32,3 +32,12 @@ Pada kasus kali ini segala aktifitas administrasi dilakukan secara digital, tida
 (baca: print), alih media (scan), dan penandatanganan dokumen dilakukan secara digital.
 
 .. image:: /_image/skenario_3.png
+
+Timeframe Implementasi
+======================
+
+Kantor Arsip sebagai pengampu penerapan naskah dinas elektronik telah merencanakan tahapan penggunaan Naskah Dinas Elektronik
+di lingkungan UI sebagai berikut
+
+.. image:: /_image/timeframe_2020.png
+

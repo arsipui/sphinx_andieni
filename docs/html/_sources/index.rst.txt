@@ -19,7 +19,7 @@ Panduan ini berisi informasi penggunaan andieni bagi pelaksana, sekretaris, dan 
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Daftar Panduan:
 
    daftarPengguna
    daftar_eSign
@@ -31,3 +31,12 @@ Panduan ini berisi informasi penggunaan andieni bagi pelaksana, sekretaris, dan 
    verifikasi
    pencarian
    laporan
+
+Helpdesk Andieni
+================
+Apabila anda mengalami kesulitan dalam penggunaan Andieni silahkan kontak kami.
+
+| Kontak   : Yogie
+| Whatsapp : +62 813-1010-2553
+| Telepon  : 021-29120934
+| Email    : arsip@ui.ac.id

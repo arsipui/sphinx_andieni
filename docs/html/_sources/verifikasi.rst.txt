@@ -2,3 +2,97 @@ Verifikasi Dokumen Digital
 ==========================
 
 Anda dapat melakukan verifikasi keaslian sebuah dokumen digital dengan beberapa cara. Berikut penjelasannya:
+
+1. Adobe Reader
+---------------
+File digital yang telah anda terima dapat di verifikasi keaslian dokumen dan validitas tanda tangan digital dengan Adobe Reader.
+
+Buka file yang anda dapatkan dengan adobe reader. Apabila anda kesulitan, untuk memastikan anda membuka file
+dengan adobe reader lakukan langkah berikut.
+
+| Klik kanan **->** open with **->** pilih Adobe Acrobat
+
+.. image:: /_image/verifikasi_adobe.png
+
+Pada bagian atas file yang telah dibuka, anda akan otomaris melihat **signature panel**.
+
+.. image:: /_image/verifikasi_adobe_2.png
+
+Apabila anda klik bagian pada gambar seperti dibawah sesuai urutan. Maka anda dapat melihat profil penandatangan.
+
+.. image:: /_image/verifikasi_adobe_3.png
+
+.. image:: /_image/verifikasi_adobe_4.png
+
+Lebih detail tentang penandatangan maka klik *Details* -> *Subject*
+
+.. image:: /_image/verifikasi_adobe_5.png
+
+
+1.A. Trust Certificate
+----------------------
+Pada saat pertama kali menampilkan tanda tangan digital, akan didapatkan tanda checklist pada bagian *Signature Panel*
+tidak berwarna hijau, melainkan kuning dengan notifikasi seperti berikut
+
+.. image:: /_image/verifikasi_adobe_6.png
+
+.. note:: hal ini terjadi karena komputer anda belum mengenal *certificate* dari pemilik tanda tangan
+
+Untuk trus dokumen anda pada bagian certificate viewer pilih tab **trust** dan klik **Add to Trusted Certificate** kemudian
+klik **OK** dan **OK**.
+
+.. note:: setalah add to trust certificate, anda perlu untuk tutup Adobe Acrobat anda dan buka kembali file yang anda tuju. Maka *checklist signature* akan menjadi berwarna hijau.
+
+1.B. Invalid Signature
+----------------------
+Apabila sebuah dokumen telah dilakukan modifikasi, maka signature panel akan menunjukan **checklist berwarna merah**.
+Hal ini yang perlu anda pastikan, artinya dokumen yang anda terima sudah tidak asli.
+
+.. image:: /_image/verifikasi_adobe_7.png
+
+Untuk mengecek dokumen asli maka anda dapat klik bagian *click to view this version*
+
+.. image:: /_image/verifikasi_adobe_8.png
+
+.. image:: /_image/verifikasi_adobe_10.png
+
+maka dapat dilihat telah terjadi perubahan 1 huruf pada kata **Tembusan:** -> **Tembusa**
+
+
+2. Very DS - Android Apps
+-------------------------
+Anda dapat melakukan pengecekan dengan aplikasi Android Very DS
+
+.. image:: /_image/verifikasi_veryds.png
+
+Buka file yang anda terima dari android anda, pilih Very DS sebagai pembuka file.
+
+.. image:: /_image/verifikasi_veryds_4.png
+
+Jika file yang anda terima telah ditanda tangani secara elektronik dan masih autentik
+
+.. image:: /_image/verifikasi_veryds_2.png
+
+Jika file yang anda terima telah ditanda tangani secara elektronik namun telah diubah oleh seseorang.
+
+.. image:: /_image/verifikasi_veryds_3.png
+
+Lalu bagaimana dengan file yang tidak memiliki tanda tangan digital, maka Very DS hanya akan berfungsi sebagai PDF Viewer saja.
+
+.. image:: /_image/verifikasi_veryds_5.png
+
+3. Portal BSRE (tidak direkomendasikan)
+------------------------------------------------
+Laman dapat diakses pada `<https://bsre.bssn.go.id/public/verification>`_
+
+.. image:: /_image/verifikasi_bsre.png
+
+Jika file yang diverifikasi memiliki tanda tangan digital yang diterbitkan oleh BSRE
+
+.. image:: /_image/verifikasi_bsre_2.png
+
+Jika file yang diverifikasi tidak memiliki tanda tangan digital
+
+.. image:: /_image/verifikasi_bsre_3.png
+
+.. warning:: verifikasi dengan portal BSRE tidak disarankan, karena saat ini tidak mendukung untuk pengecekan autentikasi dokumen

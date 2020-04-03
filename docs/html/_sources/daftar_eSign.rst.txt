@@ -21,14 +21,16 @@ Kemudian klik **Registrasi BSRE**
 Form Registrasi BSRE akan muncul pada layar anda. Isikan seluruh data tersebut sesuai dengan data diri anda.
 Penjelasan isian data sebagai berikut:
 
+.. image:: /_image/data_eSign.png
+
 +-------------------+----------------------------------------------------------------------+
 | Data              |  Penjelasan                                                          |
-+-------------------+----------------------------------------------------------------------+
++===================+======================================================================+
 | NIK               |  Nomor Induk Kependudukan (sesuai KTP)                               |
 +-------------------+----------------------------------------------------------------------+
 | Nama              |  Sesuai dengan KTP, tanpa gelar akademik atau keagamaan              |
 +-------------------+----------------------------------------------------------------------+
-| Email             |  Gunakan email UI anda, dengan domain @ui.ac.id                      |
+| Email             |  Gunakan **email UI anda**, dengan domain @ui.ac.id                  |
 +-------------------+----------------------------------------------------------------------+
 | Telepon           |  Nomor telepon anda yang masih aktif                                 |
 +-------------------+----------------------------------------------------------------------+
@@ -38,25 +40,23 @@ Penjelasan isian data sebagai berikut:
 +-------------------+----------------------------------------------------------------------+
 | NIP               | Nomor Induk Pegawai                                                  |
 +-------------------+----------------------------------------------------------------------+
-| Jabatan           | 50 karakter, tidak menggunakan koma (,) atau dash (-)                |
+| Jabatan           | **50 karakter**, tidak menggunakan koma (,) atau dash (-)            |
 +-------------------+----------------------------------------------------------------------+
-| Unit Kerja        | 50 karakter, tidak menggunakan koma (,) atau dash (-)                |
+| Unit Kerja        | **50 karakter**, tidak menggunakan koma (,) atau dash (-)            |
 +-------------------+----------------------------------------------------------------------+
 | Gambar TTD        | spesimen/ contoh tanda tangan anda, format .jpeg .jpg size: < 565 KB |
 +-------------------+----------------------------------------------------------------------+
 | KTP               | hasil scan ktp anda, format .jpeg .jpg size: < 565 KB                |
 +-------------------+----------------------------------------------------------------------+
-| Surat Rekomendasi | Surat yang diterbitkan oleh Rektor                                   |
+| Surat Rekomendasi | Surat yang diterbitkan oleh Rektor/ Dekan                            |
 +-------------------+----------------------------------------------------------------------+
 
-.. image:: /_image/data_eSign.png
+.. warning:: Email, apabila anda menggunakan email dengan domain selain UI seperti @gmail @yahoo maka pendaftaran anda akan **ditolak** oleh tim layanan BSRE
 
-.. warning:: Email, apabila anda menggunakan email dengan domain selain UI seperti @gmail @yahoo maka pendaftaran anda akan ditolak oleh tim layanan BSRE
-
-.. note:: Surat Rekomendasi Rektor telah disediakan oleh Helpdesk Andieni (Kantor Arsip) format .pdf size: < 565 KB
+.. note:: Surat Rekomendasi Rektor telah disediakan oleh Helpdesk Andieni (Kantor Arsip), silahkan hubungi helpdesk kami
 
 Anda perlu mengisi beberapa data berikut sebagai persyaratan penerbitan tanda tangan digital. Setelah anda berhasil
-melakukan registrasi (tidak ada error) ditandai dengan highlight berwarna hijau dibagian atas (data berhasil disimpan)
+melakukan registrasi **(tidak ada error)** ditandai dengan highlight berwarna hijau dibagian atas **(data berhasil disimpan)**
 maka data anda telah terkirim ke BSRE. Mohon untuk melakukan konfirmasi  kepada helpdesk Kantor Arsip untuk
 konfirmasi pendaftaran anda.
 
@@ -64,9 +64,9 @@ Email OSD
 ---------
 Anda akan menerima 3 email dari osd [otoritas sertifikat digital] :
 
-1. Email pertana - [BSrE] Login Information : berisi informasi akun anda untuk masuk ke portal bsre
-2. Email kedua - [eSign] Pendaftaran Sertifikat : berisi link untuk membuat passphrase
-3. Email ketiga - [BSrE] Certificate Issued : Email ini menandakan sertifikat anda telah terbit dan dapat digunakan pada Andieni
+1. Email pertana - **[BSrE] Login Information** : berisi informasi akun anda untuk masuk ke portal bsre
+2. Email kedua - **[eSign] Pendaftaran Sertifikat** : berisi link untuk membuat passphrase
+3. Email ketiga - **[BSrE] Certificate Issued** : Email ini menandakan sertifikat anda telah terbit dan dapat digunakan pada Andieni
 
 .. image:: /_image/email_BSRE.png
 
@@ -83,3 +83,22 @@ terdiri dari 8 karakter. Disarankan berupa frase, hindari password umum seperti 
 Durasi proses penerbitan tanda tangan digital menyesuaikan dengan jumlah penerbitan tanda tangan digital di bagian
 layanan dari BSrE. Apabila anda belum mendapatkan ketiga atau salah satu dari email tersebut silahkan kontak helpdesk
 Andieni.
+
+.. note:: eSign berlaku dengan durasi 2 tahun sejak diterbitkan.
+
+Tidak termasuk Naskah Dinas Elektronik
+--------------------------------------
+.. note:: Peraturan Rektor Nomor 30 Tahun 2019, Pasal 82D menjelaskan tentang tidak termasuk naskah dinas elektronik
+
+1. Naskah Dinas diterbitkan berdasarkan Kitab Undang-Undang Hukum Pidana
+2. Naskah Dinas berdasarkan kesepakatan ditetapkan dalam bentuk tercetak, tanda tangan basah, dan cap dinas
+3. Hukum Tata Usaha Negara bersifat konkret, individual, dan final menimbulkan akibat hukum bagi seseorang atau badan hukum perdata
+4. Naskah Dinas menimbulkan pembebanan keuangan negara
+5. Naskah Dinas merupakan perbuatan hukum perdata
+
+
+
+Materi Sosialisasi Balai Sertifikasi Elektronik
+-----------------------------------------------
+
+:pdfembed:`src:_static/present_BSRE.pdf, height:400, width:680, align:middle`

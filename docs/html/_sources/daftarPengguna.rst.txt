@@ -32,9 +32,9 @@ Pengguna Andieni dapat dikategorikan menjadi beberapa role sebagai berikut
 
 Pendaftaran Pengguna
 --------------------
-Pendaftaran pengguna Andieni dapat dilakukan `DISINI <https://docs.google.com/forms/d/e/1FAIpQLSeJsqzppPpJYVllUe7LMwINVoqJxklAZ-JK_1HgQgw-odfw8Q/viewform>`_
-
+Pendaftaran pengguna Andieni dapat dilakukan `DISINI <https://docs.google.com/forms/d/e/1FAIpQLSeJsqzppPpJYVllUe7LMwINVoqJxklAZ-JK_1HgQgw-odfw8Q/viewform>`_ .
 Beberapa data yang perlu diisi antara lain:
+
 * Nama Lengkap
 * NIP/ NUP
 * Nomor Telepon aktif

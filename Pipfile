@@ -1,0 +1,12 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+sphinxcontrib-slide = {file = "https://github.com/TYPO3-Documentation/sphinx-contrib-slide/archive/t3v1.0.0.zip"}
+
+[requires]
+python_version = "3.7"

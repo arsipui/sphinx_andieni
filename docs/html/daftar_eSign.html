@@ -36,7 +36,7 @@
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Indeks" href="genindex.html" />
     <link rel="search" title="Pencarian" href="search.html" />
-    <link rel="next" title="Skenario Penggunaan Andieni" href="interface.html" />
+    <link rel="next" title="Transisi Penggunaan Andieni" href="interface.html" />
     <link rel="prev" title="Pendaftaran Pengguna Andieni" href="daftarPengguna.html" /> 
 </head>
 
@@ -51,9 +51,12 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> Andieni
+            <a href="index.html">
           
 
+          
+            
+            <img src="_static/logo_hitam.png" class="logo" alt="Logo"/>
           
           </a>
 
@@ -81,7 +84,7 @@
               
             
             
-              <p class="caption"><span class="caption-text">Contents:</span></p>
+              <p class="caption"><span class="caption-text">Daftar Panduan:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="daftarPengguna.html">Pendaftaran Pengguna Andieni</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Registrasi eSign</a><ul>
@@ -89,10 +92,15 @@
 <li class="toctree-l2"><a class="reference internal" href="#menu-registrasi">Menu Registrasi</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#email-osd">Email OSD</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#passphrase">PASSPHRASE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tidak-termasuk-naskah-dinas-elektronik">Tidak termasuk Naskah Dinas Elektronik</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#materi-sosialisasi-balai-sertifikasi-elektronik">Materi Sosialisasi Balai Sertifikasi Elektronik</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="interface.html">Skenario Penggunaan Andieni</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ciptanaskah.html">Penciptaan Naskah Dinas Elektronik</a></li>
+<li class="toctree-l1"><a class="reference internal" href="interface.html">Transisi Penggunaan Andieni</a></li>
+<li class="toctree-l1"><a class="reference internal" href="interface.html#timeframe-implementasi">Timeframe Implementasi</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ciptanaskah.html">Cipta Naskah Dinas Elektronik</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ciptanaskah.html#approver-paraf">Approver - Paraf</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ciptanaskah.html#tanda-tangan-esign">Tanda Tangan eSign</a></li>
 <li class="toctree-l1"><a class="reference internal" href="agendaSurat.html">Penerimaan Naskah Masuk</a></li>
 <li class="toctree-l1"><a class="reference internal" href="disposisi.html">Disposisi Naskah</a></li>
 <li class="toctree-l1"><a class="reference internal" href="upload_eSign.html">Upload eSign</a></li>
@@ -185,15 +193,18 @@ Kemudian klik <strong>Registrasi BSRE</strong></p>
 <img alt="_images/regBSRE_menu.png" src="_images/regBSRE_menu.png" />
 <p>Form Registrasi BSRE akan muncul pada layar anda. Isikan seluruh data tersebut sesuai dengan data diri anda.
 Penjelasan isian data sebagai berikut:</p>
+<img alt="_images/data_eSign.png" src="_images/data_eSign.png" />
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 21%" />
 <col style="width: 79%" />
 </colgroup>
-<tbody>
-<tr class="row-odd"><td><p>Data</p></td>
-<td><p>Penjelasan</p></td>
+<thead>
+<tr class="row-odd"><th class="head"><p>Data</p></th>
+<th class="head"><p>Penjelasan</p></th>
 </tr>
+</thead>
+<tbody>
 <tr class="row-even"><td><p>NIK</p></td>
 <td><p>Nomor Induk Kependudukan (sesuai KTP)</p></td>
 </tr>
@@ -201,7 +212,7 @@ Penjelasan isian data sebagai berikut:</p>
 <td><p>Sesuai dengan KTP, tanpa gelar akademik atau keagamaan</p></td>
 </tr>
 <tr class="row-even"><td><p>Email</p></td>
-<td><p>Gunakan email UI anda, dengan domain &#64;ui.ac.id</p></td>
+<td><p>Gunakan <strong>email UI anda</strong>, dengan domain &#64;ui.ac.id</p></td>
 </tr>
 <tr class="row-odd"><td><p>Telepon</p></td>
 <td><p>Nomor telepon anda yang masih aktif</p></td>
@@ -216,10 +227,10 @@ Penjelasan isian data sebagai berikut:</p>
 <td><p>Nomor Induk Pegawai</p></td>
 </tr>
 <tr class="row-odd"><td><p>Jabatan</p></td>
-<td><p>50 karakter, tidak menggunakan koma (,) atau dash (-)</p></td>
+<td><p><strong>50 karakter</strong>, tidak menggunakan koma (,) atau dash (-)</p></td>
 </tr>
 <tr class="row-even"><td><p>Unit Kerja</p></td>
-<td><p>50 karakter, tidak menggunakan koma (,) atau dash (-)</p></td>
+<td><p><strong>50 karakter</strong>, tidak menggunakan koma (,) atau dash (-)</p></td>
 </tr>
 <tr class="row-odd"><td><p>Gambar TTD</p></td>
 <td><p>spesimen/ contoh tanda tangan anda, format .jpeg .jpg size: &lt; 565 KB</p></td>
@@ -228,21 +239,20 @@ Penjelasan isian data sebagai berikut:</p>
 <td><p>hasil scan ktp anda, format .jpeg .jpg size: &lt; 565 KB</p></td>
 </tr>
 <tr class="row-odd"><td><p>Surat Rekomendasi</p></td>
-<td><p>Surat yang diterbitkan oleh Rektor</p></td>
+<td><p>Surat yang diterbitkan oleh Rektor/ Dekan</p></td>
 </tr>
 </tbody>
 </table>
-<img alt="_images/data_eSign.png" src="_images/data_eSign.png" />
 <div class="admonition warning">
 <p class="admonition-title">Peringatan</p>
-<p>Email, apabila anda menggunakan email dengan domain selain UI seperti &#64;gmail &#64;yahoo maka pendaftaran anda akan ditolak oleh tim layanan BSRE</p>
+<p>Email, apabila anda menggunakan email dengan domain selain UI seperti &#64;gmail &#64;yahoo maka pendaftaran anda akan <strong>ditolak</strong> oleh tim layanan BSRE</p>
 </div>
 <div class="admonition note">
 <p class="admonition-title">Catatan</p>
-<p>Surat Rekomendasi Rektor telah disediakan oleh Helpdesk Andieni (Kantor Arsip) format .pdf size: &lt; 565 KB</p>
+<p>Surat Rekomendasi Rektor telah disediakan oleh Helpdesk Andieni (Kantor Arsip), silahkan hubungi helpdesk kami</p>
 </div>
 <p>Anda perlu mengisi beberapa data berikut sebagai persyaratan penerbitan tanda tangan digital. Setelah anda berhasil
-melakukan registrasi (tidak ada error) ditandai dengan highlight berwarna hijau dibagian atas (data berhasil disimpan)
+melakukan registrasi <strong>(tidak ada error)</strong> ditandai dengan highlight berwarna hijau dibagian atas <strong>(data berhasil disimpan)</strong>
 maka data anda telah terkirim ke BSRE. Mohon untuk melakukan konfirmasi  kepada helpdesk Kantor Arsip untuk
 konfirmasi pendaftaran anda.</p>
 </div>
@@ -250,9 +260,9 @@ konfirmasi pendaftaran anda.</p>
 <h2>Email OSD<a class="headerlink" href="#email-osd" title="Link permanen untuk headline ini">¶</a></h2>
 <p>Anda akan menerima 3 email dari osd [otoritas sertifikat digital] :</p>
 <ol class="arabic simple">
-<li><p>Email pertana - [BSrE] Login Information : berisi informasi akun anda untuk masuk ke portal bsre</p></li>
-<li><p>Email kedua - [eSign] Pendaftaran Sertifikat : berisi link untuk membuat passphrase</p></li>
-<li><p>Email ketiga - [BSrE] Certificate Issued : Email ini menandakan sertifikat anda telah terbit dan dapat digunakan pada Andieni</p></li>
+<li><p>Email pertana - <strong>[BSrE] Login Information</strong> : berisi informasi akun anda untuk masuk ke portal bsre</p></li>
+<li><p>Email kedua - <strong>[eSign] Pendaftaran Sertifikat</strong> : berisi link untuk membuat passphrase</p></li>
+<li><p>Email ketiga - <strong>[BSrE] Certificate Issued</strong> : Email ini menandakan sertifikat anda telah terbit dan dapat digunakan pada Andieni</p></li>
 </ol>
 <img alt="_images/email_BSRE.png" src="_images/email_BSRE.png" />
 </div>
@@ -268,6 +278,40 @@ terdiri dari 8 karakter. Disarankan berupa frase, hindari password umum seperti 
 <p>Durasi proses penerbitan tanda tangan digital menyesuaikan dengan jumlah penerbitan tanda tangan digital di bagian
 layanan dari BSrE. Apabila anda belum mendapatkan ketiga atau salah satu dari email tersebut silahkan kontak helpdesk
 Andieni.</p>
+<div class="admonition note">
+<p class="admonition-title">Catatan</p>
+<p>eSign berlaku dengan durasi 2 tahun sejak diterbitkan.</p>
+</div>
+</div>
+<div class="section" id="tidak-termasuk-naskah-dinas-elektronik">
+<h2>Tidak termasuk Naskah Dinas Elektronik<a class="headerlink" href="#tidak-termasuk-naskah-dinas-elektronik" title="Link permanen untuk headline ini">¶</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Catatan</p>
+<p>Peraturan Rektor Nomor 30 Tahun 2019, Pasal 82D menjelaskan tentang tidak termasuk naskah dinas elektronik</p>
+</div>
+<ol class="arabic simple">
+<li><p>Naskah Dinas diterbitkan berdasarkan Kitab Undang-Undang Hukum Pidana</p></li>
+<li><p>Naskah Dinas berdasarkan kesepakatan ditetapkan dalam bentuk tercetak, tanda tangan basah, dan cap dinas</p></li>
+<li><p>Hukum Tata Usaha Negara bersifat konkret, individual, dan final menimbulkan akibat hukum bagi seseorang atau badan hukum perdata</p></li>
+<li><p>Naskah Dinas menimbulkan pembebanan keuangan negara</p></li>
+<li><p>Naskah Dinas merupakan perbuatan hukum perdata</p></li>
+</ol>
+</div>
+<div class="section" id="materi-sosialisasi-balai-sertifikasi-elektronik">
+<h2>Materi Sosialisasi Balai Sertifikasi Elektronik<a class="headerlink" href="#materi-sosialisasi-balai-sertifikasi-elektronik" title="Link permanen untuk headline ini">¶</a></h2>
+<p>
+                        <iframe
+                                id="ID"
+                                style="border:1px solid #666CCC"
+                                title="PDF"
+                                src="_static/present_BSRE.pdf"
+                                frameborder="1"
+                                scrolling="auto"
+                                height="400"
+                                width="680"
+                                align="middle">
+                        </iframe>
+                     </p>
 </div>
 </div>
 
@@ -279,7 +323,7 @@ Andieni.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="interface.html" class="btn btn-neutral float-right" title="Skenario Penggunaan Andieni" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="interface.html" class="btn btn-neutral float-right" title="Transisi Penggunaan Andieni" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="daftarPengguna.html" class="btn btn-neutral float-left" title="Pendaftaran Pengguna Andieni" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
