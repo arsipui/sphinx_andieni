@@ -59,4 +59,3 @@ muncul tombol untuk download berkas.
 .. image:: /_image/upload_eSign_download.png
 
 .. note:: fitur ini hanya digunakan untuk penandatanganan berkas. dokumen yang telah anda tanda tangani belum terkirim secara otomatis ke tujuan naskah.
-

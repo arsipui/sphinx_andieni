@@ -46,7 +46,7 @@ klik **OK** dan **OK**.
 1.B. Invalid Signature
 ----------------------
 Apabila sebuah dokumen telah dilakukan modifikasi, maka signature panel akan menunjukan **checklist berwarna merah**.
-Hal ini yang perlu anda pastikan, artinya dokumen yang anda terima sudah tidak asli.
+Hal ini yang perlu anda pastikan, artinya dokumen yang anda terima sudah tidak asli (palsu).
 
 .. image:: /_image/verifikasi_adobe_7.png
 
