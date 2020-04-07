@@ -10,14 +10,66 @@ naskah masuk maupun disposisi masuk.
 
 Naskah Internal
 ^^^^^^^^^^^^^^^
-Naskah masuk internal merupakan kolom yang digunakan untuk interaksi naskah masuk dari internal UI. Baik diterima dalam bentuk digital maupun fisik
+Naskah masuk internal merupakan bagian yang digunakan untuk interaksi naskah masuk dari internal UI. Baik diterima dalam bentuk tercetak, elektronik, atau langsung melalui Andieni-CiptaNaskah.
+
+.. image:: /_image/skenario_naskah_masuk_internal.png
 
 Naskah Eksternal
 ^^^^^^^^^^^^^^^^
-Bagian ini digunakan untuk mencatat naskah masuk dari eksternal universitas. Baik diterima dalam bentuk digital maupun fisik.
+Bagian ini digunakan untuk mencatat naskah masuk dari eksternal universitas. Baik diterima dalam bentuk tercetak maupun elektronik.
 
 .. image:: /_image/skenario_1a.png
 
-Disposisi
-^^^^^^^^^
-Pada bagian ini dapat dilihat disposisi masuk dari atasan atau rekan kerja. Begitu pula disposisi keluar yang ditujukan kepada staf anda.
+Input Naskah Masuk
+------------------
+Untuk naskah masuk yang anda terima dalam bentuk tercetak atau elektronik di luar sistem Andieni, maka silahkan tambahkan
+pada naskah masuk internal (berasal dari entitas di lingkungan UI) dan naskah masuk eksternal (berasal dari entitas di
+luar UI).
+
+Klik -> **Tambah Naskah Masuk Internal** atau **Tambah Naskah Masuk Eksternal**
+
+.. image:: /_image/naskahmasuk.png
+
+.. image:: /_image/naskahmasuk_eksternal.png
+
+Isikan metadata sesuai dengan naskah yang anda terima, berikut penjelasan setiap field yang perlu diisi:
+
++-----------------------+----------------------------------------------------------------------+
+| Field                 |  Penjelasan                                                          |
++=======================+======================================================================+
+| **Sifat Naskah**      |  Pilih sesuai dengan sifat naskah (Biasa/ Rahasia/ Sangat Rahasia)   |
++-----------------------+----------------------------------------------------------------------+
+| **Jenis Naskah**      |  sudah terisi                                                        |
++-----------------------+----------------------------------------------------------------------+
+| **Asal Naskah**       |  Freetext, silahkan tuliskan unit pengirim                           |
++-----------------------+----------------------------------------------------------------------+
+| **Nomor Naskah**      |  Tuliskan sesuai dengan nomor surat pada naskah                      |
++-----------------------+----------------------------------------------------------------------+
+| **Tanggal Naskah**    |  Isikan tanggal yang tertera pada naskah (bukan tanggal diterima)    |
++-----------------------+----------------------------------------------------------------------+
+| **Perihal**           |  Isikan dengan perihal surat                                         |
++-----------------------+----------------------------------------------------------------------+
+| **Tujuan Distribusi** |  Pilih pejabat di lingkungan UI                                      |
++-----------------------+----------------------------------------------------------------------+
+| **Klasifikasi**       |  Pilih indeks kegiatan sesuai klasifikasi arsip                      |
++-----------------------+----------------------------------------------------------------------+
+| **Isi singkat**       |  Tuliskan informasi penting misal deadline, agenda rapat, dsb        |
++-----------------------+----------------------------------------------------------------------+
+| **Referensi**         |  Diisi jika surat yang anda terima terkait dengan naskah dinas lain  |
++-----------------------+----------------------------------------------------------------------+
+| **Unggah**            |  Pilih file yang telah anda scan atau terima secara elektronik       |
++-----------------------+----------------------------------------------------------------------+
+
+Kemudian klik -> **Kirim**
+
+.. image:: /_image/kirim.png
+
+Maka akan muncul informasi **"Berhasil tambah data"**
+
+.. image:: /_image/databerhasilditambahkan.png
+
+Data yang telah ditambahkan akan muncul pada tab **Baru**
+
+.. note:: Apabila naskah telah dibuka penerima maka akan berpindah ke tab **Sudah Diterima**
+
+.. image:: /_image/naskahditerima.png

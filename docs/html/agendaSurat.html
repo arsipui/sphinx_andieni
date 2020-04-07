@@ -37,7 +37,7 @@
     <link rel="index" title="Indeks" href="genindex.html" />
     <link rel="search" title="Pencarian" href="search.html" />
     <link rel="next" title="Disposisi Naskah" href="disposisi.html" />
-    <link rel="prev" title="Penciptaan Naskah Dinas Elektronik" href="ciptanaskah.html" /> 
+    <link rel="prev" title="Cipta Naskah Dinas Elektronik" href="ciptanaskah.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -90,16 +90,16 @@
 <li class="toctree-l1"><a class="reference internal" href="daftar_eSign.html">Registrasi eSign</a></li>
 <li class="toctree-l1"><a class="reference internal" href="interface.html">Transisi Penggunaan Andieni</a></li>
 <li class="toctree-l1"><a class="reference internal" href="interface.html#timeframe-implementasi">Timeframe Implementasi</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ciptanaskah.html">Penciptaan Naskah Dinas Elektronik</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ciptanaskah.html">Cipta Naskah Dinas Elektronik</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ciptanaskah.html#approver-paraf">Approver - Paraf</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ciptanaskah.html#tanda-tangan-esign">Tanda Tangan eSign</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Penerimaan Naskah Masuk</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#halaman-naskah">Halaman Naskah</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#naskah-internal">Naskah Internal</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#naskah-eksternal">Naskah Eksternal</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#disposisi">Disposisi</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#input-naskah-masuk">Input Naskah Masuk</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="disposisi.html">Disposisi Naskah</a></li>
@@ -180,17 +180,80 @@
 naskah masuk maupun disposisi masuk.</p>
 <div class="section" id="naskah-internal">
 <h3>Naskah Internal<a class="headerlink" href="#naskah-internal" title="Link permanen untuk headline ini">¶</a></h3>
-<p>Naskah masuk internal merupakan kolom yang digunakan untuk interaksi naskah masuk dari internal UI. Baik diterima dalam bentuk digital maupun fisik</p>
+<p>Naskah masuk internal merupakan bagian yang digunakan untuk interaksi naskah masuk dari internal UI. Baik diterima dalam bentuk tercetak, elektronik, atau langsung melalui Andieni-CiptaNaskah.</p>
+<img alt="_images/skenario_naskah_masuk_internal.png" src="_images/skenario_naskah_masuk_internal.png" />
 </div>
 <div class="section" id="naskah-eksternal">
 <h3>Naskah Eksternal<a class="headerlink" href="#naskah-eksternal" title="Link permanen untuk headline ini">¶</a></h3>
-<p>Bagian ini digunakan untuk mencatat naskah masuk dari eksternal universitas. Baik diterima dalam bentuk digital maupun fisik.</p>
+<p>Bagian ini digunakan untuk mencatat naskah masuk dari eksternal universitas. Baik diterima dalam bentuk tercetak maupun elektronik.</p>
 <img alt="_images/skenario_1a.png" src="_images/skenario_1a.png" />
 </div>
-<div class="section" id="disposisi">
-<h3>Disposisi<a class="headerlink" href="#disposisi" title="Link permanen untuk headline ini">¶</a></h3>
-<p>Pada bagian ini dapat dilihat disposisi masuk dari atasan atau rekan kerja. Begitu pula disposisi keluar yang ditujukan kepada staf anda.</p>
 </div>
+<div class="section" id="input-naskah-masuk">
+<h2>Input Naskah Masuk<a class="headerlink" href="#input-naskah-masuk" title="Link permanen untuk headline ini">¶</a></h2>
+<p>Untuk naskah masuk yang anda terima dalam bentuk tercetak atau elektronik di luar sistem Andieni, maka silahkan tambahkan
+pada naskah masuk internal (berasal dari entitas di lingkungan UI) dan naskah masuk eksternal (berasal dari entitas di
+luar UI).</p>
+<p>Klik -&gt; <strong>Tambah Naskah Masuk Internal</strong> atau <strong>Tambah Naskah Masuk Eksternal</strong></p>
+<img alt="_images/naskahmasuk.png" src="_images/naskahmasuk.png" />
+<img alt="_images/naskahmasuk_eksternal.png" src="_images/naskahmasuk_eksternal.png" />
+<p>Isikan metadata sesuai dengan naskah yang anda terima, berikut penjelasan setiap field yang perlu diisi:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 75%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Penjelasan</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Sifat Naskah</strong></p></td>
+<td><p>Pilih sesuai dengan sifat naskah (Biasa/ Rahasia/ Sangat Rahasia)</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Jenis Naskah</strong></p></td>
+<td><p>sudah terisi</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Asal Naskah</strong></p></td>
+<td><p>Freetext, silahkan tuliskan unit pengirim</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Nomor Naskah</strong></p></td>
+<td><p>Tuliskan sesuai dengan nomor surat pada naskah</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Tanggal Naskah</strong></p></td>
+<td><p>Isikan tanggal yang tertera pada naskah (bukan tanggal diterima)</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Perihal</strong></p></td>
+<td><p>Isikan dengan perihal surat</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Tujuan Distribusi</strong></p></td>
+<td><p>Pilih pejabat di lingkungan UI</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Klasifikasi</strong></p></td>
+<td><p>Pilih indeks kegiatan sesuai klasifikasi arsip</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Isi singkat</strong></p></td>
+<td><p>Tuliskan informasi penting misal deadline, agenda rapat, dsb</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Referensi</strong></p></td>
+<td><p>Diisi jika surat yang anda terima terkait dengan naskah dinas lain</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Unggah</strong></p></td>
+<td><p>Pilih file yang telah anda scan atau terima secara elektronik</p></td>
+</tr>
+</tbody>
+</table>
+<p>Kemudian klik -&gt; <strong>Kirim</strong></p>
+<img alt="_images/kirim.png" src="_images/kirim.png" />
+<p>Maka akan muncul informasi <strong>&quot;Berhasil tambah data&quot;</strong></p>
+<img alt="_images/databerhasilditambahkan.png" src="_images/databerhasilditambahkan.png" />
+<p>Data yang telah ditambahkan akan muncul pada tab <strong>Baru</strong></p>
+<div class="admonition note">
+<p class="admonition-title">Catatan</p>
+<p>Apabila naskah telah dibuka penerima maka akan berpindah ke tab <strong>Sudah Diterima</strong></p>
+</div>
+<img alt="_images/naskahditerima.png" src="_images/naskahditerima.png" />
 </div>
 </div>
 
@@ -205,7 +268,7 @@ naskah masuk maupun disposisi masuk.</p>
         <a href="disposisi.html" class="btn btn-neutral float-right" title="Disposisi Naskah" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="ciptanaskah.html" class="btn btn-neutral float-left" title="Penciptaan Naskah Dinas Elektronik" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="ciptanaskah.html" class="btn btn-neutral float-left" title="Cipta Naskah Dinas Elektronik" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

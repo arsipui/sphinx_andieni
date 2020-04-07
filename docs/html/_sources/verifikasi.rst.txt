@@ -56,8 +56,9 @@ Untuk mengecek dokumen asli maka anda dapat klik bagian *click to view this vers
 
 .. image:: /_image/verifikasi_adobe_10.png
 
-maka dapat dilihat telah terjadi perubahan 1 huruf pada kata **Tembusan:** -> **Tembusa**
+maka dapat dilihat telah terjadi perubahan pada kata **Tembusan:** -> **Tembusa**
 
+.. image:: /_image/verifikasi_adobe_11.png
 
 2. Very DS - Android Apps
 -------------------------

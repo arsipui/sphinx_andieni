@@ -1,4 +1,83 @@
 Disposisi Naskah
 ================
+Pada bagian ini dapat dilihat disposisi masuk dari atasan atau rekan kerja. Begitu pula disposisi keluar yang ditujukan kepada staf anda.
 
-dalam penyusunan
+.. image:: /_image/skenario_disposisi.png
+
+Pada bagian ini anda telah menerima naskah masuk dan pilih salah satu naskah yang anda baca dan disposisikan.
+
+.. image:: /_image/pilihnaskahmasuk.png
+
+Silahkan cek data naskah
+
+.. image:: /_image/cekdatanaskah.png
+
+jika kurang jelas maka anda dapat mengecek pada file terlampir
+
+.. image:: /_image/tombolnaskahmasuk.png
+
+Isian Data Disposisi
+--------------------
+Isian data disposisi yang perlu diisi sebagai berikut
+
++-----------------------+----------------------------------------------------------------------+
+| Field                 |  Penjelasan                                                          |
++=======================+======================================================================+
+| Pengirim              |  Otomatis oleh sistem                                                |
++-----------------------+----------------------------------------------------------------------+
+| Sifat Naskah          |  Otomatis oleh sistem, sesuai isian data dari pengirim/ pengentri    |
++-----------------------+----------------------------------------------------------------------+
+| Derajat               |  Pilih Segera/ Sangat Segera/ Biasa                                  |
++-----------------------+----------------------------------------------------------------------+
+| Pilih Jenis Disposisi |  Arsipkan                                                            |
+|                       |  Tindaklanjuti                                                       |
++-----------------------+----------------------------------------------------------------------+
+| Pilih Tujuan Disposisi|  Pilih staf atau pejabat yang dituju, pastikan mereka sudah terdaftar|
+|                       |  dan menggunakan Andieni                                             |
++-----------------------+----------------------------------------------------------------------+
+| Catatan               |  Tuliskan pesan disposisi untuk manajer/ rekan/ staf anda            |
++-----------------------+----------------------------------------------------------------------+
+| Pencatat              |  Otomatis oleh sistem, nama anda akan tercantum                      |
++-----------------------+----------------------------------------------------------------------+
+| Lampiran              |  Otomatis oleh sistem, yaitu surat yang anda disposisikan            |
++-----------------------+----------------------------------------------------------------------+
+| Unggah                |  Pilih file tambahan yang akan jadikan lampiran jika ada             |
++-----------------------+----------------------------------------------------------------------+
+
+Kemudian klik -> **Simpan & kirim disposisi**
+
+.. image:: /_image/kirimdisposisi.png
+
+Notifikasi Disposisi
+--------------------
+Manajer/ Rekan kerja/ Staf yang anda disposisikan akan menerima email notifikasi seperti dibawah ini
+
+.. image:: /_image/notifdisposisi.png
+
+Untuk mengecek posisi dimana disposisi tersebut berada pada andieni, maka anda dapat melihat pada menu -> **Halaman Naskah**
+kemudian pada bagian **Naskah Disposisi**
+
+.. image:: /_image/disposisimasuk.png
+
+| Tab **Masuk**     : Disposisi masuk yang ditujukan kepada anda
+| Tab **Keluar**    : Disposisi keluar yang anda tujukan ke orang lain
+
+Penyelesaian Disposisi
+----------------------
+Anda dapat melihat disposisi yang masuk kepada anda di bagian **Halaman Naskah** -> **Naskah Disposisi** -> Tab **Masuk**.
+
+.. image:: /_image/disposisi.png
+
+Pilih disposisi anda baca arahan yang diberikan atau cek file surat. Apabila disposisi yang diberikan sudah anda kerjakan
+maka klik **Selesai**.
+
+.. image:: /_image/disposisi_selesai.png
+
+Anda dapat melihat *update* status pada bagian naskah yang telah anda disposisikan.
+
+.. image:: /_image/disposisi_catatan_selesai.png
+
+Anda dapat pula melihat history dari disposisi ini berasal, Pada contoh ini diperlihatkan naskah berasal
+
+.. image:: /_image/disposisi_history.png
+

@@ -1,4 +1,62 @@
 Upload eSign
 ============
+Jika pada modul cipta naskah, Andieni masih terbatas penggunaan eSign pada 2 naskah dinas yaitu Nota Dinas dan Surat Dinas
+maka pada Upload eSign ini lebih fleksibel dan dapat digunakan untuk penandatanganan berkas kedinasan UI sesuai keperluan anda.
 
-dalam penyusunan
+.. warning:: Perhatikan pengecualian untuk Naskah Dinas Elektronik dan sesuaikan dengan prosedur unit terkait.
+
+Klik -> **Upload eSign** pada bagian menu sebelah kiri
+
+Isikan data yang diperlukan untuk pencatatan naskah
+
++-----------------------+----------------------------------------------------------------------+
+| Field                 |  Penjelasan                                                          |
++=======================+======================================================================+
+| **Sifat Naskah**      |  Pilih sesuai dengan sifat naskah (Biasa/ Rahasia/ Sangat Rahasia)   |
++-----------------------+----------------------------------------------------------------------+
+| **Jenis Naskah**      |  sudah terisi                                                        |
++-----------------------+----------------------------------------------------------------------+
+| **Asal Naskah**       |  Freetext, silahkan tuliskan unit pengirim                           |
++-----------------------+----------------------------------------------------------------------+
+| **Nomor Naskah**      |  Tuliskan sesuai dengan nomor surat pada naskah                      |
++-----------------------+----------------------------------------------------------------------+
+| **Tanggal Naskah**    |  Isikan tanggal yang tertera pada naskah (bukan tanggal diterima)    |
++-----------------------+----------------------------------------------------------------------+
+| **Perihal**           |  Isikan dengan perihal surat                                         |
++-----------------------+----------------------------------------------------------------------+
+| **Klasifikasi**       |  Pilih indeks kegiatan sesuai klasifikasi arsip                      |
++-----------------------+----------------------------------------------------------------------+
+| **Isi singkat**       |  Tuliskan informasi penting misal deadline, agenda rapat, dsb        |
++-----------------------+----------------------------------------------------------------------+
+| **Signer**            |  Pejabat yang akan menandatangani dokumen anda                       |
++-----------------------+----------------------------------------------------------------------+
+| **Unggah**            |  Pilih file yang telah anda scan atau terima secara elektronik       |
++-----------------------+----------------------------------------------------------------------+
+
+.. warning:: upload berkas hanya dalam format PDF
+
+Pilih berkas yang anda akan tanda tangani.
+
+.. image:: /_image/upload_eSign_2.png
+
+Cek berkas naskah yang akan anda tanda tangani, file lampiran terdapat pada bagian bawah berkas yang diunggah. Pastikan
+nama anda benar tertera sebagai signer (penandatangan).
+
+.. image:: /_image/upload_eSign_3.png
+
+Jika anda merasa cukup dan bermaksud untuk menandatangani dokumen tersebut dengan eSign. Maka pilih tombol checklist
+berwarna hijau pada bagian kanan atas.
+
+.. image:: /_image/checklist_hijau.png
+
+Kemudian anda akan diminta untuk mengisi passphrase dari sertifikat eSign anda.
+
+.. image:: /_image/passphrase_dispo.png
+
+Jika berhasil maka akan muncul highlight berkas berhasil ditandatangai dan disebelah kanan atas halaman anda akan
+muncul tombol untuk download berkas.
+
+.. image:: /_image/upload_eSign_download.png
+
+.. note:: fitur ini hanya digunakan untuk penandatanganan berkas. dokumen yang telah anda tanda tangani belum terkirim secara otomatis ke tujuan naskah.
+
