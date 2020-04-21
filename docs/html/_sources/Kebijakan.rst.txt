@@ -1,0 +1,18 @@
+Landasan Kebijakan
+==================
+
+**1.** UU Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik
+
+.. code-block:: html
+   :linenos:
+
+   Penjelasan
+      Pasal 11
+         Ayat (1)
+            Undang-Undang ini memberikan pengakuan secara tegas bahwa meskipun hanya merupakan
+            suatu kode, Tanda Tangan Elektronik memiliki kedudukan yang sama dengan tanda
+            tangan manual pada umumnya yang memiliki kekuatan hukum dan akibat hukum.
+
+| **2.** PP 71 Tahun 2019 tentang Penyelenggaraan Sistem dan Transaksi Elektronik
+| **3.** Peraturan Rektor Nomor 30 Tahun 2019 tentang Perubahan Peraturan Rektor Nomor 057 Tahun 2017 tentang Tata Naskah Dinas
+| **4.** Keputusan Rektor Nomor: 479/SK/R/UI/2020 tentang Aplikasi Naskah Dinas Elektronik dan Tanda Tangan Elektronik Tersetifikasi

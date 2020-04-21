@@ -67,6 +67,9 @@ Form diatas terdiri dari beberapa field dan tombol. Berikut deskripsi dari masin
 
 .. image:: /_image/ciptanaskah_perihal.png
 
+.. warning:: hindari penulisan perihal dengan judul umum seperti undangan, rapat, karena ini tidak menggambarkan konten naskah.
+.. note:: Contoh yang benar penulisan perihal antara lain Rapat RKA Tahun 2020 ; Nara Sumber Seminar Nasional Kewirausahaan ; Sosialisasi Naskah Dinas Elektronik.
+
 **Approver** | Dropdown yang dapat anda ketikkan jabatan atau nama approver untuk
 
 .. image:: /_image/ciptanaskah_approver_0.png
@@ -116,8 +119,7 @@ Tembusan dapat dipilih lebih dari satu.
 
 .. image:: /_image/ciptanaskah_isinaskah.png
 
-.. warning:: hindari penulisan perihal dengan judul umum seperti undangan, rapat, karena ini tidak menggambarkan konten naskah.
-.. note:: Contoh yang benar penulisan perihal antara lain Rapat RKA Tahun 2020 ; Nara Sumber Seminar Nasional Kewirausahaan ; Sosialisasi Naskah Dinas Elektronik.
+.. note:: paragraf baru mohon gunakan shift + enter untuk spasi (1 line single spacing), jika menggunakan enter (maka akan menjadi 2 line spacing)
 
 Approver - Paraf
 ================

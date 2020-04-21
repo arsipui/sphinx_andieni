@@ -21,9 +21,10 @@ Panduan ini berisi informasi penggunaan andieni bagi pelaksana, sekretaris, dan 
    :maxdepth: 2
    :caption: Daftar Panduan:
 
+   Kebijakan
+   interface
    daftarPengguna
    daftar_eSign
-   interface
    ciptanaskah
    agendaSurat
    disposisi

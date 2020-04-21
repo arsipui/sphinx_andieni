@@ -1,7 +1,8 @@
 Registrasi eSign
 ================
 
-.. note:: Menu pendaftaran hanya ditujukan untuk PIMPINAN
+.. note:: Menu pendaftaran hanya ditujukan untuk PIMPINAN.
+.. note:: Fakultas yang akan menerapkan bagi PIMPINAN UNIT dan DOSEN, Maka Dekan Fakultas/ Direktur Program Vokasi/ Sekolah Pascasarjana perlu membuat rekomendasi penerbitan tanda tangan digital untuk yang bersangkutan.
 
 Login
 -----
