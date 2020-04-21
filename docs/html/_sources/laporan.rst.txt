@@ -1,5 +1,25 @@
 Laporan Andieni
 ===============
+Anda dapat membuat laporan naskah dinas yang telah diproses di unit kerja anda dengan menu **Laporan**.
 
-dalam penyusunan
+Pilih jenis naskah yang anda akan buat laporan, Naskah, Disposisi Masuk, Disposisi Keluar.
 
+.. image:: /_image/laporan_tipe.png
+
+Pilih kurun waktu naskah di proses.
+
+.. image:: /_image/laporan_pilih_tanggal.png
+
+Kemudian klik tombol **cari**
+
+.. image:: /_image/tombol_cari.png
+
+Hasil pencarian dapat anda lihat pada bagian dibawah, seperti berikut.
+
+.. image:: /_image/hasil_laporan_preview.png
+
+Anda dapat menyimpan file yang telah anda proses dengan Andieni dengan menu berikut:
+
+.. image:: /_image/unduh_berkas.png
+
+.. note:: Untuk menjaga apabila terjadi kegagalan sistem pada Andieni, kami menyarankan agar para sekretaris unit melakukan *backup* dengan mengunduh laporan naskah secara berkala setiap seminggu sekali.

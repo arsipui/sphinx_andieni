@@ -1,4 +1,20 @@
 Pencarian Naskah
 ================
+Anda dapat melakukan pencarian naskah pada beberapa field berikut. Pada bagian atas halaman naskah dan setiap kolom
+pada bagian naskah internal, naskah eksternal, dan disposisi.
 
-*[dalam penyusunan]*
+.. image:: /_image/cari_atas.png
+
+.. image:: /_image/cari_kolom.png
+
+apabila anda tidak menemukan naskah pada tab baru, silahkan klik pada tab sudah diterima pada setiap kolom.
+
+.. note:: Pencarian saat ini belum menghasilkan seluruh naskah dari kategori internal, eksternal, dan disposisi. Masih parsial per kategori.
+
+Beberapa field yang dapat anda gunakan untuk menemukan naskah yang anda perlukan yaitu, sort berdasarkan
+
+| Unit Kerja
+| Tanggal
+| Perihal
+
+Keyword yang anda ketik pada kolom pencarian (search) akan merujuk pada perihal dari naskah.
