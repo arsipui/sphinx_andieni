@@ -81,3 +81,17 @@ Anda dapat pula melihat history dari disposisi ini berasal, Pada contoh ini dipe
 
 .. image:: /_image/disposisi_history.png
 
+Edit Disposisi
+--------------
+Anda dapat melakukan edit terhadap disposisi yang telah anda buat. Dengan klik tombol edit pada naskah disposisi anda:
+
+.. image:: /_image/edit.png
+
+Kemudian anda dapat mengubah beberapa data untuk **Derajat** dan **Catatan Disposisi**
+
+.. image:: /_image/edit_disposisi_data.png
+
+Anda dapat mengubah tujuan disposisi pada bagian **tab Tujuan Disposisi**
+
+.. image:: /_image/edit_disposisi_tujuan.png
+
