@@ -1,0 +1,63 @@
+FAQ
+===
+FAQ *(Frequent Ask Questions)* - Daftar pertanyaan yang sering ditanyakan tentang Andieni dan eSign:
+
+| **Apakah tanda tangan scan sama dengan eSign ?**
+| Berbeda, eSign adalah tanda tangan tersetifikasi yang menjamin sebuah dokumen digital autentik. Sedangkan tanda tangan scan tidak dapat menjamin hal tersebut, karena sangat mudah untuk dimanipulasi.
+
+| **Bagaimana cara mengecek/ verifikasi naskah telah disahkan dengan eSign ?**
+| Anda dapat menggunakan Adobe Acrobat Reader pada komputer dan Very DS pada smartphone android.
+
+| **Apakah sekretaris akan mendapatkan file surat dinas/nota dinas yang sudah di ttd pimpinan secara otomatis?**
+| Iya, yang akan menerima secara otomatis adalah sekretaris di unit kerja tujuan. Sehingga anda tidak perlu untuk mengirimkan seperti cc (carbon copy) seperti email.
+
+| **Apakah bisa kirim surat internal antar unit di fakultas?**
+| Bisa, dengan catatan unit kerja tersebut telah terdaftar dan menggunakan Andieni.
+
+| **Bagaimana kalau saya perlu bentuk tercetak (hardcopy) dari naskah?**
+| Anda dapat mengunduh naskah dan cetak.
+
+| **Apakah mungkin untuk surat yang panjang atau lebih dari satu halaman ?**
+| Jumlah halaman dapat lebih dari satu. Estimasi pada modul cipta naskah satu halaman terdiri dari 15^17 baris.
+
+| **Apakah bisa copy^paste dari word ?**
+| Bisa
+
+| **Apakah tabel dari word atau excel bisa di copy^paste ?**
+| Kami tidak menyarankan format tabel untuk dilakukan copy^paste karena akan merubah default margin pada cipta naskah. Kami sarankan menggunakan fitur **lampiran** yang telah disediakan.
+
+| **Jika kita membuat nota dinas ini apakah kita akan tahu terdisposisi ke unit mana saja?**
+| Pembuat nota dinas akan mengetahui posisi naskah dinas sampai proses penerimanya saja.
+
+| **Kalau perlu nomor surat dengan tanggal back date bagaimana ya ?**
+| Naskah dinas elektronik tidak mengakomodasi nomor mundur.
+
+| **Bagaimana kalau instansi yg dituju masih memerlukan berkas, apakah setelah diprint bs dikatakan masih sah ?**
+| Silakan diprint apabila dibutuhkan. Untuk proses validasi tetap menggunakan file elektroniknya dengan aplikasi Adobe Reader atau Very DS. Dalam hal ini anda perlu berkomunikasi dengan instansi tujuan apakah mereka telah menerima teknologi pengesahan naskah dengan tanda tangan digital.
+
+| **Approver, maksimal, minimal berapa orang, andaikan tidak ada apakah boleh ?**
+| Approver bersifat optional jadi bisa dikosongkan. Jumlah Approver dapat menyesuaikan dengan kebutuhan setiap proses bisnis di unit kerja.
+
+| **Bagaimanajika tembusan Surat Dinas ditujukkan kepada pihak ekstemal juga? Apakah bisa diketikkan manual?**
+| Tembusan hanya ditujukan kepada pihak internal Universitas Indonesia dan tidak bisa diketikkan secara manual.
+
+| **Apakah fitur notifikasi di andieni kedepannya akan ada ?**
+| Fitur notifikasi sudah tersedia untuk notifikasi bagi penerima disposisi. Notifikasi diberikan ke email pengguna yang terdaftar.
+
+| **Untuk surat dinas jika sudah selesai proses tandatangan pimpinan apakah surat akan langsung terkirim ke tujuan diluar Ul?**
+| Surat Dinas, proses distribusinya dilakukan melalui email resmi unit (berdomain @ui.ac.id) atau media elektronik lainnya.
+
+| **Apakah lampiran juga akan ada tanda tangan digitalnya ?**
+| File yang digenerat pada modul cipta naskah akan tergenerate menjadi sebuah file. Tanda tangan digital tersebut akan menandatangani seluruh halaman pada file tersebut, termasuk lampiran.
+
+| **Apakah bisa melampirkan excel atau word ?**
+| Lampiran pada Andieni harus dalam format PDF.
+
+| **Naskah yang dihasilkan pada modul cipta naskah spasinya kadang terlalu lebar, bagaimana solusinya ?**
+| Untuk membuat garis baru dapat menekan SHIFT + ENTER untuk mendapatkan ukuran spasi 1(single) pt.
+
+| **Bagaimana jika tujuan naskah banyak ?**
+| Naskah dengan tujuan yang cukup banyak maka anda dapat gunakan fitur upload eSign untuk proses penandatanganannya. Kemudian mendistribusikan ke unit kerja di seluruh lingkungan UI di Halaman Naskah - Tambah Naskah Internal.
+
+| **Bagaimana jika terjadi error ?**
+| Setiap error dapat langsung disampaikan kepada kami, pada bagian kontak helpdesk. Tolong sertakan pula screenshot error untuk memudahkan kami menelusur permasalahan.

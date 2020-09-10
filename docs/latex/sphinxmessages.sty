@@ -1,0 +1,21 @@
+%
+% sphinxmessages.sty
+%
+% message resources for Sphinx
+%
+\ProvidesPackage{sphinxmessages}[2019/01/04 v2.0 Localized LaTeX macros (Sphinx team)]
+
+\renewcommand{\literalblockcontinuedname}{lanjutan dari halaman sebelumnya}
+\renewcommand{\literalblockcontinuesname}{berlanjut ke halaman berikutnya}
+\renewcommand{\sphinxnonalphabeticalgroupname}{Non\sphinxhyphen{}abjad}
+\renewcommand{\sphinxsymbolsname}{Simbol}
+\renewcommand{\sphinxnumbersname}{Angka}
+\def\pageautorefname{laman}
+
+\addto\captionsbahasai{\renewcommand{\figurename}{Gambar.\@{} }}
+\def\fnum@figure{\figurename\thefigure{}}
+
+\addto\captionsbahasai{\renewcommand{\tablename}{Tabel }}
+\def\fnum@table{\tablename\thetable{}}
+
+\addto\captionsbahasai{\renewcommand{\literalblockname}{Daftar}}

@@ -32,12 +32,24 @@ Panduan ini berisi informasi penggunaan andieni bagi pelaksana, sekretaris, dan 
    verifikasi
    pencarian
    laporan
+   FAQ
 
 Helpdesk Andieni
 ================
 Apabila anda mengalami kesulitan dalam penggunaan Andieni silahkan kontak kami.
 
+| **Admin Andieni**
 | Kontak   : Yogie
 | Whatsapp : +62 813-1010-2553
+
+| **Koordinator Pembinaan dan Pengembangan (Verifikator eSign)**
+| Kontak   : Bayu Setyawan
+| Whatsapp : +62 812-8102-4202
+
+| **Kepala Kantor Arsip**
+| Kontak   : Wahid Nurfiantara
+| Whatsapp : +62 896-60443586
+
+| **Kantor Arsip**
 | Telepon  : 021-29120934
-| Email    : arsip@ui.ac.id
+| Email    : arsip[at]ui.ac.id

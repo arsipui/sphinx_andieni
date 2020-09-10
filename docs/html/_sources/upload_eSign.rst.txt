@@ -59,3 +59,4 @@ muncul tombol untuk download berkas.
 .. image:: /_image/upload_eSign_download.png
 
 .. note:: fitur ini hanya digunakan untuk penandatanganan berkas. dokumen yang telah anda tanda tangani belum terkirim secara otomatis ke tujuan naskah.
+.. warning:: fitur upload eSign tidak akan memberikan visual apapun pada naskah yang anda unggah. Sehingga mohon diperhatikan agar memberikan visual tanda tangan pada naskah.
